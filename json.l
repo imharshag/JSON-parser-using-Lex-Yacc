@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "json.tab.h"
+#include "json.tab.h"  /* Include this file here generated after executing json.y file */
 %}
 %%
 [ \t\n]
